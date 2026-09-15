@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="REPLACE — SCHOLARS">
+  <defs>
+    <linearGradient id="g0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0033a0"/><stop offset="1" stop-color="#0033a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g0)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="936" cy="234" r="270"/>
+    <circle cx="936" cy="234" r="414"/>
+    <circle cx="264" cy="738" r="216"/>
+  </g>
+  <path d="M0 900 L504 306 L744 900 Z" fill="#ffffff" fill-opacity="0.07"/>
+  <path d="M600 900 L1032 468 L1200 702 L1200 900 Z" fill="#e8a317" fill-opacity="0.22"/>
+  <text x="600" y="450" text-anchor="middle" dominant-baseline="middle"
+        font-family="Archivo, Helvetica, Arial, sans-serif" font-size="56"
+        font-weight="700" letter-spacing="2" fill="#ffffff" fill-opacity="0.72">REPLACE — SCHOLARS</text>
+</svg>

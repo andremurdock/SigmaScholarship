@@ -1,0 +1,16 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs / local servers
+*.log
+node_modules/
+
+# Local drafts — put working files here and they stay out of the repo
+_drafts/

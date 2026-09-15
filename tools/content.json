@@ -1,0 +1,54 @@
+{
+  "_comment": "Fill in every value, then run: node tools/fill-tokens.js  — it replaces the matching {{TOKEN}} in every .html file at the repo root. Leave a value as \"\" to skip that token for now.",
+
+  "EMAIL": "info@50for50scholarship.org",
+  "PHONE": "",
+  "FACEBOOK_URL": "",
+  "INSTAGRAM_URL": "",
+  "LINKEDIN_URL": "",
+
+  "TOTAL_AWARDED": "",
+  "SCHOLARS_SUPPORTED": "",
+  "YEAR_FOUNDED": "",
+
+  "AWARD_AMOUNT": "",
+  "AWARDS_PER_YEAR": "",
+  "MIN_GPA": "",
+  "APP_OPEN_DATE": "",
+  "APP_DEADLINE": "",
+  "AWARD_DATE": "",
+  "ESSAY_PROMPT": "",
+  "ESSAY_LENGTH": "500–750 words",
+  "DISBURSEMENT_NOTE": "",
+  "REAPPLY_NOTE": "",
+
+  "EVENT_DATE_LINEN": "",
+  "EVENT_VENUE_LINEN": "",
+  "EVENT_TICKETS_LINEN": "",
+  "EVENT_TICKET_URL_LINEN": "",
+  "EVENT_DATE_BRISKET": "",
+  "EVENT_TICKETS_BRISKET": "",
+  "EVENT_TICKET_URL_BRISKET": "",
+  "EVENT_3_DATE": "", "EVENT_3_NAME": "", "EVENT_3_DESC": "",
+  "EVENT_4_DATE": "", "EVENT_4_NAME": "", "EVENT_4_DESC": "",
+  "EVENT_5_DATE": "", "EVENT_5_NAME": "", "EVENT_5_DESC": "",
+
+  "DONATE_URL": "",
+  "DONATE_MONTHLY_URL": "",
+  "PAYMENT_PROCESSOR": "PayPal",
+  "TAX_STATUS_LINE": "",
+  "PROSPECTUS_URL": "",
+  "FORM_ENDPOINT": "",
+
+  "TIER_1_AMOUNT": "", "TIER_1_BENEFITS": "",
+  "TIER_2_AMOUNT": "", "TIER_2_BENEFITS": "",
+  "TIER_3_AMOUNT": "", "TIER_3_BENEFITS": "",
+  "TIER_4_AMOUNT": "", "TIER_4_BENEFITS": "",
+
+  "BIO_MURDOCK": "",
+  "BIO_WALDEN": "",
+  "BIO_FREEMAN": "",
+  "BIO_WHITE": "",
+  "BIO_CANGE": "",
+  "BIO_MARSHALL": ""
+}

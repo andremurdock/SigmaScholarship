@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="REPLACE — LINEN &amp; BLUES">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06225a"/><stop offset="1" stop-color="#1b52d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g3)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2">
+    <circle cx="936" cy="175.5" r="202.5"/>
+    <circle cx="936" cy="175.5" r="310.5"/>
+    <circle cx="264" cy="553.5" r="162"/>
+  </g>
+  <path d="M0 675 L504 229.50000000000003 L744 675 Z" fill="#ffffff" fill-opacity="0.07"/>
+  <path d="M600 675 L1032 351 L1200 526.5 L1200 675 Z" fill="#e8a317" fill-opacity="0.22"/>
+  <text x="600" y="337.5" text-anchor="middle" dominant-baseline="middle"
+        font-family="Archivo, Helvetica, Arial, sans-serif" font-size="42"
+        font-weight="700" letter-spacing="2" fill="#ffffff" fill-opacity="0.72">REPLACE — LINEN &amp; BLUES</text>
+</svg>
