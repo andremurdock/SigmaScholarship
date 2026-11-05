@@ -101,8 +101,12 @@
       <div data-reveal>
         <div class="card">
           <h3>Send a message</h3>
-          <div class="note mt-2"><strong>Not wired up yet</strong> &mdash; set <code>action</code> to your form handler. See <code>README.md</code>.</div>
-          <form class="form mt-3" action="{{FORM_ENDPOINT}}" method="post">
+          <form class="form mt-3" action="{{CONTACT_FORM_ENDPOINT}}" method="POST">
+            <input type="hidden" name="_subject" value="New message from 50for50scholarship.org">
+            <input type="hidden" name="_next" value="https://andremurdock.github.io/SigmaScholarship/thanks.html">
+            <p class="visually-hidden" aria-hidden="true">
+              <label>Leave this field empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+            </p>
             <div class="field">
               <label for="c-name">Name <span class="required" aria-hidden="true">*</span></label>
               <input id="c-name" name="name" type="text" autocomplete="name" required>

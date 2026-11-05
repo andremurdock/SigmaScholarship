@@ -77,7 +77,7 @@
       <div class="steps">
         <div class="step" data-reveal>
           <h3>Check that you qualify</h3>
-          <p>Review the eligibility requirements below. If you are a Metro Atlanta student headed to or already in college, you are most likely in scope.</p>
+          <p>Review the eligibility requirements below. If you are a young man graduating from a Metro Atlanta high school and headed to college, you are in scope.</p>
         </div>
         <div class="step" data-reveal>
           <h3>Gather your documents</h3>
@@ -105,9 +105,8 @@
         <p class="eyebrow">Eligibility</p>
         <h2>Before you start</h2>
         <ul class="checklist">
-          <li>Resident of the Metro Atlanta area</li>
-          <li>Graduating high school senior or currently enrolled college student</li>
-          <li>Accepted to or enrolled at an accredited college, university, or technical school</li>
+          <li>Young man graduating high school in the Metro Atlanta area</li>
+          <li>Accepted to or planning to enroll at an accredited college, university, or technical school</li>
           <li>Minimum GPA of {{MIN_GPA}}</li>
         </ul>
       </div>
@@ -128,14 +127,20 @@
       <div class="section-head" data-reveal>
         <p class="eyebrow">Application</p>
         <h2>Start your application</h2>
-        <p class="lead">Fill this out and we will follow up with next steps and document upload instructions.</p>
+        <p class="lead">Submit this form first, then email your transcript and two recommendation letters. Both parts must arrive by {{APP_DEADLINE}} for your packet to be considered.</p>
       </div>
 
-      <div class="note" data-reveal>
-        <strong>Developer note &mdash; this form is not wired up yet.</strong> Point <code>action</code> at a form handler before launch: Netlify Forms, Formspree, Basin, or a Google Form. If you would rather use a Google Form, delete this form and link the button to it instead. See <code>README.md</code>.
+      <div class="info-box" data-reveal>
+        <strong>Two steps.</strong> This form captures your application. Your <strong>official transcript</strong> and <strong>two signed recommendation letters</strong> cannot be attached here &mdash; email them to
+        <a href="mailto:xichisigmascholarshipcommittee@gmail.com">xichisigmascholarshipcommittee@gmail.com</a> with your full name in the subject line. Incomplete packets are not reviewed.
       </div>
 
-      <form class="form mt-4" action="{{FORM_ENDPOINT}}" method="post" data-reveal>
+      <form class="form mt-4" action="{{FORM_ENDPOINT}}" method="POST" data-reveal>
+        <input type="hidden" name="_subject" value="New 50 for 50 scholarship application">
+        <input type="hidden" name="_next" value="https://andremurdock.github.io/SigmaScholarship/thanks.html">
+        <p class="visually-hidden" aria-hidden="true">
+          <label>Leave this field empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+        </p>
         <div class="field--row">
           <div class="field">
             <label for="first-name">First name <span class="required" aria-hidden="true">*</span></label>
@@ -157,17 +162,17 @@
           </div>
         </div>
         <div class="field">
-          <label for="school">High school or college you attend <span class="required" aria-hidden="true">*</span></label>
+          <label for="school">High school you attend <span class="required" aria-hidden="true">*</span></label>
           <input id="school" name="school" type="text" required>
         </div>
         <div class="field--row">
           <div class="field">
-            <label for="status">Current status <span class="required" aria-hidden="true">*</span></label>
-            <select id="status" name="status" required>
+            <label for="grad-year">Expected graduation <span class="required" aria-hidden="true">*</span></label>
+            <select id="grad-year" name="grad-year" required>
               <option value="">Select one</option>
-              <option>Graduating high school senior</option>
-              <option>Currently enrolled college student</option>
-              <option>Technical or trade school student</option>
+              <option>Spring 2027</option>
+              <option>Spring 2028</option>
+              <option>Other</option>
             </select>
           </div>
           <div class="field">
@@ -178,6 +183,10 @@
         <div class="field">
           <label for="major">Intended major or program of study</label>
           <input id="major" name="major" type="text">
+        </div>
+        <div class="field">
+          <label for="college">College, university, or technical school you plan to attend</label>
+          <input id="college" name="college" type="text">
         </div>
         <div class="field">
           <label for="statement">Personal statement <span class="required" aria-hidden="true">*</span></label>

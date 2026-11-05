@@ -30,6 +30,7 @@ events.html         Linen & Blues, Brisket & Brotherhood, calendar
 sponsors.html       Sponsorship levels, benefits, partners
 donate.html         Giving levels, monthly, mail-a-check, employer matching
 contact.html        Contact details + contact form
+thanks.html         Post-submission thank-you page (forms redirect here)
 404.html            Not-found page
 
 assets/css/styles.css   Everything visual. Design tokens live at the top.
@@ -102,13 +103,21 @@ Use `.jpg` for photos and update the `src` and `alt` on each `<img>`. Also repla
 
 ### 4. Wire up the two forms
 
-`apply.html` and `contact.html` have real form markup with `action="{{FORM_ENDPOINT}}"` that currently goes nowhere. Pick one:
+Both forms are built for **Formspree**, which works on GitHub Pages (Netlify Forms do not). Each one posts to its own endpoint, so application and contact submissions stay separated.
 
-- **Netlify / Cloudflare Pages** — add `netlify` and `name="application"` attributes to the `<form>` tag and submissions land in the dashboard. Zero code.
-- **Formspree / Basin / FormSubmit** — sign up, paste the endpoint URL into `FORM_ENDPOINT`. Works on any host, including GitHub Pages.
-- **Google Form** — delete the `<form>` block and point the "Start your application" button at the Google Form URL instead. Least elegant, least work, and the responses land in a spreadsheet the committee can already use.
+1. Sign up at [formspree.io](https://formspree.io) — the free tier allows 50 submissions a month, which is plenty for a scholarship cycle.
+2. Create **two** forms: one named "Scholarship application", one named "Contact". Set each one's notification email to an address a person actually reads.
+3. Copy each endpoint (looks like `https://formspree.io/f/xyzabcde`) into `tools/content.json`:
+   - `FORM_ENDPOINT` → the application form
+   - `CONTACT_FORM_ENDPOINT` → the contact form
+4. Run `node tools/fill-tokens.js`, commit, push.
+5. Submit a real test through each one. Formspree requires you to confirm the endpoint by clicking a link in the first submission email before it starts delivering.
 
-Whichever you choose, test it end to end and make sure the notification goes somewhere a person actually reads.
+Both forms already include a hidden `_gotcha` honeypot (spam trap), a `_subject` line, and a `_next` redirect to `thanks.html`.
+
+**On documents:** Formspree's free tier does not accept file uploads, so the application form collects the written application only. `thanks.html` and the Apply page both tell applicants to email their transcript and two recommendation letters to `DOCS_EMAIL` separately. If you want uploads in the form itself, Formspree's paid tier supports them — or keep the two-step flow, which also gives the committee a cleaner paper trail.
+
+**At domain cutover:** `SITE_URL` is baked into both `_next` redirects. Search the repo for `andremurdock.github.io` and change it to `https://50for50scholarship.org` when you move the domain, or the thank-you page will bounce visitors back to the GitHub URL.
 
 ### 5. Check accessibility and links
 

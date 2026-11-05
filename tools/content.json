@@ -1,6 +1,10 @@
 {
   "_comment": "Values confirmed from the live site, Eventbrite, IRS/ProPublica records, and the Xi Chi Sigma scholarship pages (Nov 2026). Anything still empty needs Andre.",
 
+  "DOCS_EMAIL": "xichisigmascholarshipcommittee@gmail.com",
+  "SITE_URL": "https://andremurdock.github.io/SigmaScholarship",
+  "CONTACT_FORM_ENDPOINT": "",
+
   "EMAIL": "admin@50for50Scholarship.org",
   "PHONE": "",
   "FACEBOOK_URL": "",
