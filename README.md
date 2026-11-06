@@ -85,17 +85,14 @@ There are also `<!-- TODO: -->` comments in the HTML for things that need a huma
 
 ### 3. Replace the artwork
 
-Everything in `assets/img/` beginning with `ph-` is a generated placeholder with "REPLACE" printed across it. Swap in real photography at these sizes:
+Real photography from the chapter is in place for most slots (`mission.jpg`, `scholars.jpg`, `community.jpg`, `brisket.jpg`, `board.jpg`, `scholar-portrait.jpg`, and `og.jpg` for social sharing). Two placeholders remain:
 
 | File | Used for | Size |
 |---|---|---|
-| `ph-mission.svg` | Homepage mission, check presentation | 1200×900 |
-| `ph-students.svg` | Scholars / awareness sessions | 1200×900 |
-| `ph-community.svg` | Volunteers at a community event | 1200×900 |
-| `ph-linen.svg` | Linen & Blues | 1200×675 |
-| `ph-brisket.svg` | Brisket & Brotherhood | 1200×675 |
-| `ph-board.svg` | Board group photo | 1200×675 |
+| `ph-linen.svg` | Linen & Blues — needs a wide crowd shot | 1200×675 |
 | `ph-portrait.svg` | Board headshots (one per person) | 600×600 square |
+
+Photos were cropped and optimized by a script; source images live in the Foundation Images folder on Andre's Mac. Several show scholarship recipients by name — confirm photo releases were collected before launch.
 
 Use `.jpg` for photos and update the `src` and `alt` on each `<img>`. Also replace the Open Graph image (`og:image` in each page's `<head>`) with a real 1200×630 JPG — that is what shows when someone shares a link on Facebook.
 

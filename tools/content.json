@@ -1,22 +1,18 @@
 {
   "_comment": "Values confirmed from the live site, Eventbrite, IRS/ProPublica records, and the Xi Chi Sigma scholarship pages (Nov 2026). Anything still empty needs Andre.",
-
   "DOCS_EMAIL": "xichisigmascholarshipcommittee@gmail.com",
   "SITE_URL": "https://andremurdock.github.io/SigmaScholarship",
   "CONTACT_FORM_ENDPOINT": "",
-
   "EMAIL": "admin@50for50Scholarship.org",
   "PHONE": "",
   "FACEBOOK_URL": "",
   "INSTAGRAM_URL": "",
   "LINKEDIN_URL": "",
-
   "TOTAL_AWARDED": "",
   "SCHOLARS_SUPPORTED": "",
   "YEAR_FOUNDED": "",
-
-  "AWARD_AMOUNT": "",
-  "AWARDS_PER_YEAR": "",
+  "AWARD_AMOUNT": "$1,000–$1,500",
+  "AWARDS_PER_YEAR": "6",
   "MIN_GPA": "",
   "APP_OPEN_DATE": "",
   "APP_DEADLINE": "",
@@ -25,7 +21,6 @@
   "ESSAY_LENGTH": "500 words, typed and double-spaced",
   "DISBURSEMENT_NOTE": "",
   "REAPPLY_NOTE": "",
-
   "EVENT_DATE_LINEN": "Saturday, August 21, 2027",
   "EVENT_VENUE_LINEN": "Guardian Works, 775 Echo Street NW, Atlanta, GA 30318",
   "EVENT_TICKETS_LINEN": "",
@@ -33,22 +28,33 @@
   "EVENT_DATE_BRISKET": "",
   "EVENT_TICKETS_BRISKET": "",
   "EVENT_TICKET_URL_BRISKET": "",
-  "EVENT_3_DATE": "", "EVENT_3_NAME": "", "EVENT_3_DESC": "",
-  "EVENT_4_DATE": "", "EVENT_4_NAME": "", "EVENT_4_DESC": "",
-  "EVENT_5_DATE": "", "EVENT_5_NAME": "", "EVENT_5_DESC": "",
-
+  "EVENT_3_DATE": "",
+  "EVENT_3_NAME": "",
+  "EVENT_3_DESC": "",
+  "EVENT_4_DATE": "",
+  "EVENT_4_NAME": "",
+  "EVENT_4_DESC": "",
+  "EVENT_5_DATE": "",
+  "EVENT_5_NAME": "",
+  "EVENT_5_DESC": "",
   "DONATE_URL": "https://www.paypal.com/paypalme/50for50sigmascholars",
   "DONATE_MONTHLY_URL": "",
   "PAYMENT_PROCESSOR": "PayPal",
   "TAX_STATUS_LINE": "The Foundation is a 501(c)(3) tax-exempt organization, so your gift is tax-deductible to the extent allowed by law.",
   "PROSPECTUS_URL": "",
   "FORM_ENDPOINT": "",
-
-  "TIER_1_AMOUNT": "", "TIER_1_BENEFITS": "",
-  "TIER_2_AMOUNT": "", "TIER_2_BENEFITS": "",
-  "TIER_3_AMOUNT": "", "TIER_3_BENEFITS": "",
-  "TIER_4_AMOUNT": "", "TIER_4_BENEFITS": "",
-
-  "BIO_MURDOCK": "", "BIO_WALDEN": "", "BIO_FREEMAN": "",
-  "BIO_WHITE": "", "BIO_CANGE": "", "BIO_MARSHALL": ""
+  "TIER_1_AMOUNT": "",
+  "TIER_1_BENEFITS": "",
+  "TIER_2_AMOUNT": "",
+  "TIER_2_BENEFITS": "",
+  "TIER_3_AMOUNT": "",
+  "TIER_3_BENEFITS": "",
+  "TIER_4_AMOUNT": "",
+  "TIER_4_BENEFITS": "",
+  "BIO_MURDOCK": "",
+  "BIO_WALDEN": "",
+  "BIO_FREEMAN": "",
+  "BIO_WHITE": "",
+  "BIO_CANGE": "",
+  "BIO_MARSHALL": ""
 }
